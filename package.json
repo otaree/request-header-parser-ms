@@ -1,0 +1,19 @@
+{
+  "name": "request-header-parser-ms",
+  "version": "1.0.0",
+  "description": "A API for getting IP address, language and operating system from browser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "otaree",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "request-ip": "^2.0.2"
+  },
+  "engines": {
+    "node": "v9.5.0"
+  },
+  "devDependencies": {}
+}
